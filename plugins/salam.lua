@@ -8,8 +8,8 @@ return {
   description = "Says sala, to someone", 
   usage = "say salam to [name]",
   patterns = {
-    "^say salam to (.*)$",
-    "^Say salam to (.*)$"
+    "^[Ss]ay salam to (.*)$",
+    "^[Ss]ay salam to (.*)$"
   }, 
   run = run 
 }
