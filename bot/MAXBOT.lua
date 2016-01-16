@@ -227,14 +227,13 @@ function create_config( )
     "set",
     "anti_spam",
     "stats",
-    "Version",
     "close_group",
     "kickall",
     "Maseage",
     "tagall",
     
     },
-    sudo_users = {93367845,128729099,0,tonumber(our_id)},--Sudo users
+    sudo_users = {93367845,177065055)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[MAXBOT  v2 - Open Source
@@ -292,7 +291,7 @@ group admin Commands:
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-tools for InfernalTG :
+tools for MAXBOT
 
 >#1.Add_bot
 >#2.Anti_Bot
