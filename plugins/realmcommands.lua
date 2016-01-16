@@ -654,26 +654,26 @@ end
 
 return {
   patterns = {
-    "^[!/](creategroup) (.*)$",
-    "^[!/](createrealm) (.*)$",
-    "^[!/](setabout) (%d+) (.*)$",
-    "^[!/](setrules) (%d+) (.*)$",
-    "^[!/](setname) (.*)$",
-    "^[!/](setgpname) (%d+) (.*)$",
-    "^[!/](setname) (%d+) (.*)$",
-        "^[!/](lock) (%d+) (.*)$",
-    "^[!/](unlock) (%d+) (.*)$",
-    "^[!/](setting) (%d+)$",
-        "^[!/](wholist)$",
-        "^[!/](who)$",
-        "^[!/](type)$",
-    "^[!/](kill) (chat) (%d+)$",
-    "^[!/](kill) (realm) (%d+)$",
-    "^[!/](adminprom) (.*)$", -- sudoers only
-    "^[!/](admindem) (.*)$", -- sudoers only
-    "^[!/](list) (.*)$",
-        "^[!/](log)$",
-        "^[!/](help)$",
+    "^([Cc]reategroup) (.*)$",
+    "^([Cc]reaterealm) (.*)$",
+    "^([Ss]etabout) (%d+) (.*)$",
+    "^([Ss]etrules) (%d+) (.*)$",
+    "^([Ss]etname) (.*)$",
+    "^([Ss]etgpname) (%d+) (.*)$",
+    "^([Ss]etname) (%d+) (.*)$",
+        "^([Ll]ock) (%d+) (.*)$",
+    "^([Uu]nlock) (%d+) (.*)$",
+    "^([Ss]etting) (%d+)$",
+        "^([Ww]holist)$",
+        "^([Ww]ho)$",
+        "^([Tt]ype)$",
+    "^([Kk]ill) ([Cc]hat) (%d+)$",
+    "^([Kk]ill) ([Rr]ealm) (%d+)$",
+    "^([Aa]dminprom) (.*)$", -- sudoers only
+    "^([Aa]dmindem) (.*)$", -- sudoers only
+    "^([Ll]ist) (.*)$",
+        "^([Ll]og)$",
+        "^([Hh]elp)$",
         "^!!tgservice (.+)$",
   },
   run = run
