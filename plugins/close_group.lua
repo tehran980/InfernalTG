@@ -54,7 +54,7 @@ return {
    	  	},
    },
    patterns = {
-      "^[!/](cgroup) (%d+)$",
+      "^([Cc]group) (%d+)$",
    },
    run = run,
    moderated = true
