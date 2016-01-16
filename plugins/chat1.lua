@@ -7,7 +7,7 @@ return {
   usage = "no help",
   patterns = {
     "^?$",
-    "^?$",
+    "^؟$",
   }, 
   run = run 
 }
