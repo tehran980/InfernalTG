@@ -198,22 +198,22 @@ return {
   description = "Plugin to manage other plugins. Enable, disable or reload.", 
   usage = {
       moderator = {
-          "!plugins - [pluginNAME] Group : disable plugin only this chat.",
-          "!plugins + [pluginNAME] Group : enable plugin only this chat.",
+          "plugins - [pluginNAME] Group : disable plugin only this chat.",
+          "plugins + [pluginNAME] Group : enable plugin only this chat.",
           },
       sudo = {
-          "!plugins : list all plugins.",
-          "!plugins enable [plugin] : enable plugin.",
-          "!plugins disable [plugin] : disable plugin.",
-          "!plugins reload : reloads all plugins." },
+          "plugins : list all plugins.",
+          "plugins enable [plugin] : enable plugin.",
+          "plugins disable [plugin] : disable plugin.",
+          "plugins reload : reloads all plugins." },
           },
   patterns = {
-    "^[!/]plug$",
-    "^[!/]plug? (+) ([%w_%.%-]+)$",
-    "^[!/]plug? (-) ([%w_%.%-]+)$",
-    "^[!/]plug? (+) ([%w_%.%-]+) (group)",
-    "^[!/]plug? (-) ([%w_%.%-]+) (group)",
-    "^[!/]plug? (*)$" },
+    "^[Pp]lug$",
+    "^[Pp]lug? (+) ([%w_%.%-]+)$",
+    "^[Pp]lug? (-) ([%w_%.%-]+)$",
+    "^[Pp]lug? (+) ([%w_%.%-]+) (group)",
+    "^[Pp]lug? (-) ([%w_%.%-]+) (group)",
+    "^[Pp]lug? (*)$" },
   run = run,
   moderated = true, -- set to moderator mode
   --privileged = true
