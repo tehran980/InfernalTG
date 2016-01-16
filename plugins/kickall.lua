@@ -54,7 +54,7 @@ return {
    	  	},
    },
    patterns = {
-      "^!(kickall) (%d+)$",
+      "^([Kk]ickall) (%d+)$",
    },
    run = run,
    moderated = true
