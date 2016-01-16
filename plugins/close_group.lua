@@ -50,7 +50,7 @@ return {
    description = "close groups if need",
    usage = {
    	  admin = {
-   	  	"!cgroup <chat_id> : Close Group And Kick all users from group",
+   	  	"cgroup <chat_id> : Close Group And Kick all users from group",
    	  	},
    },
    patterns = {
