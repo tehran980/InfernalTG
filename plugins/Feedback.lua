@@ -31,9 +31,9 @@ end
 return {
   description = "Feedback to sudos",
 
-  usage = "!feedback : send maseage to admins with bot",
+  usage = "feedback : send maseage to admins with bot",
   patterns = {
-    "^[!/]([Ff]eedback) (.*)$"
+    "^([Ff]eedback) (.*)$"
 
   },
   run = run
