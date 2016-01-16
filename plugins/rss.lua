@@ -177,18 +177,18 @@ end
 return {
    description = "Manage User/Chat RSS subscriptions. If you are in a chat group, the RSS subscriptions will be of that chat. If you are in an one-to-one talk with the bot, the RSS subscriptions will be yours.",
    usage = {
-      "!rss: Get your rss (or chat rss) subscriptions",
-      "!rss subscribe (url): Subscribe to that url",
-      "!rss unsubscribe (id): Unsubscribe of that id",
-      "!rss sync: Download now the updates and send it. Only sudo users can use this option."
+      "rss: Get your rss (or chat rss) subscriptions",
+      "rss subscribe (url): Subscribe to that url",
+      "rss unsubscribe (id): Unsubscribe of that id",
+      "rss sync: Download now the updates and send it. Only sudo users can use this option."
    },
    patterns = {
-      "^!rss$",
-      "^!rss (subscribe) (https?://[%w-_%.%?%.:/%+=&]+)$",
-      "^!rss (sub) (https?://[%w-_%.%?%.:/%+=&]+)$",
-      "^!rss (unsubscribe) (%d+)$",
-      "^!rss (uns) (%d+)$",
-      "^!rss (sync)$"
+      "^[Rr]ss$",
+      "^[Rr]ss (subscribe) (https?://[%w-_%.%?%.:/%+=&]+)$",
+      "^[Rr]ss (sub) (https?://[%w-_%.%?%.:/%+=&]+)$",
+      "^[Rr]ss (unsubscribe) (%d+)$",
+      "^[Rr]ss (uns) (%d+)$",
+      "^[Rr]ss (sync)$"
    },
    run = run,
    cron = cron
