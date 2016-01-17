@@ -47,6 +47,22 @@ end
 if msg.text == "bye" then
 	return "Bye Bye"
 end
+if msg.text == "سلام" then
+	return "سلام عمو"
+endif msg.text == "کیر" then
+	return "تو کونت"
+endif msg.text == "کون" then
+	return "ژووووووووووون"
+end
+if msg.text == "ممه" then
+	return "ژوووووون 85 باشه ها"
+end
+if msg.text == "کیری" then
+	return "عه؟ اسمت این بود؟"
+end
+if msg.text == "bk" then
+	return "به کیرم که به کیرت"
+end
 end
 
 return {
