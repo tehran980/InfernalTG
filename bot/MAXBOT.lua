@@ -242,46 +242,46 @@ An advance Administration bot based on yagop/telegram-bot
     help_text_realm = [[
 group admin Commands:
 
-!creategroup [Name]
+creategroup [Name]
 
-!createrealm [Name]
+createrealm [Name]
 
-!setname [Name]
+setname [Name]
 
-!setabout [GroupID] [Text]
+setabout [GroupID] [Text]
 
-!setrules [GroupID] [Text]
+setrules [GroupID] [Text]
 
-!lock [GroupID] [setting]
+lock [GroupID] [setting]
 
-!unlock [GroupID] [setting]
+unlock [GroupID] [setting]
 
-!wholist
+wholist
 
-!who
+who
 
-!type
+type
 
-!kill chat [GroupID]
+kill chat [GroupID]
 
 
-!kill realm [RealmID]
+kill realm [RealmID]
 
-!adminprom [id|username]
+adminprom [id|username]
 
-!admindem [id|username]
+admindem [id|username]
 
-!list infernalgroups
+list
 
-!list infernalrealms
+list
 
-!log
+log
 
-!broadcast [text]
-!broadcast InfernalTG !
+broadcast [text]
+broadcast!
 
-!br [group_id] [text]
-!br 123456789 Hello !
+br [group_id] [text]
+br 123456789 Hello !
 
 *Only admins and sudo can add bots in group
 
